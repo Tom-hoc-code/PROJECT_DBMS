@@ -9,12 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="admin\kho\" />
     <Folder Include="admin\khachhang\" />
     <Folder Include="admin\nhansu\" />
-    <Folder Include="admin\vanchuyen\" />
-    <Folder Include="customer\" />
-    <Folder Include="register-login-logout\" />
   </ItemGroup>
 
 </Project>
