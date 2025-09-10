@@ -1,4 +1,4 @@
-namespace PROJECT_DBMS
+namespace PROJECT_DBMS.admin.menu
 {
     internal static class Program
     {
