@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="admin\khachhang\" />
-    <Folder Include="admin\nhansu\" />
   </ItemGroup>
 
 </Project>

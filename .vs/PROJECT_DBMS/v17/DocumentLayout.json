@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "F:\\HQTCSDL\\project\\PROJECT_DBMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|f:\\hqtcsdl\\project\\project_dbms\\project_dbms\\admin\\nhansu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|solutionrelative:project_dbms\\admin\\nhansu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|f:\\hqtcsdl\\project\\project_dbms\\project_dbms\\register-login-logout\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|solutionrelative:project_dbms\\register-login-logout\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|f:\\hqtcsdl\\project\\project_dbms\\project_dbms\\customer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|F:\\HQTCSDL\\project\\PROJECT_DBMS\\project_dbms\\customer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|solutionrelative:project_dbms\\customer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|solutionrelative:project_dbms\\admin\\kho\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|f:\\hqtcsdl\\project\\project_dbms\\project_dbms\\admin\\kho\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|F:\\HQTCSDL\\project\\PROJECT_DBMS\\project_dbms\\admin\\kho\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|solutionrelative:project_dbms\\admin\\kho\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -35,6 +39,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "F:\\HQTCSDL\\project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\nhansu\\Form1.cs",
+              "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\nhansu\\Form1.cs",
+              "ToolTip": "F:\\HQTCSDL\\project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\nhansu\\Form1.cs [Design]",
+              "RelativeToolTip": "PROJECT_DBMS\\admin\\nhansu\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T06:24:46.085Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Class1.cs",
               "DocumentMoniker": "F:\\HQTCSDL\\project\\PROJECT_DBMS\\PROJECT_DBMS\\register-login-logout\\Class1.cs",
               "RelativeDocumentMoniker": "PROJECT_DBMS\\register-login-logout\\Class1.cs",
@@ -47,19 +63,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "F:\\HQTCSDL\\project\\PROJECT_DBMS\\PROJECT_DBMS\\customer\\Form1.cs",
               "RelativeDocumentMoniker": "PROJECT_DBMS\\customer\\Form1.cs",
               "ToolTip": "F:\\HQTCSDL\\project\\PROJECT_DBMS\\PROJECT_DBMS\\customer\\Form1.cs [Design]",
               "RelativeToolTip": "PROJECT_DBMS\\customer\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T06:15:54.654Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-10T06:15:54.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "F:\\HQTCSDL\\project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\vanchuyen\\Class1.cs",
               "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\vanchuyen\\Class1.cs",
@@ -67,12 +82,11 @@
               "RelativeToolTip": "PROJECT_DBMS\\admin\\vanchuyen\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T06:15:42.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T06:15:42.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "F:\\HQTCSDL\\project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\kho\\Class1.cs",
               "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\kho\\Class1.cs",
@@ -80,20 +94,18 @@
               "RelativeToolTip": "PROJECT_DBMS\\admin\\kho\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T06:15:33.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T06:15:33.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "F:\\HQTCSDL\\project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\kho\\Form1.cs",
               "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\kho\\Form1.cs",
               "ToolTip": "F:\\HQTCSDL\\project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\kho\\Form1.cs [Design]",
               "RelativeToolTip": "PROJECT_DBMS\\admin\\kho\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T06:15:22.621Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-10T06:15:22.621Z"
             }
           ]
         }
