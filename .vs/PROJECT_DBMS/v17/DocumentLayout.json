@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "A:\\DBMS_project\\PROJECT_DBMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|a:\\dbms_project\\project_dbms\\project_dbms\\admin\\menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|solutionrelative:project_dbms\\admin\\menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|a:\\dbms_project\\project_dbms\\project_dbms\\admin\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|solutionrelative:project_dbms\\admin\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|a:\\dbms_project\\project_dbms\\project_dbms\\admin\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|solutionrelative:project_dbms\\admin\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|a:\\dbms_project\\project_dbms\\project_dbms\\admin\\nhansu\\form1nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|solutionrelative:project_dbms\\admin\\nhansu\\form1nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Program.cs",
-              "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\menu\\Program.cs",
-              "ToolTip": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Program.cs",
-              "RelativeToolTip": "PROJECT_DBMS\\admin\\menu\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Title": "Form1Nhansu.cs [Design]",
+              "DocumentMoniker": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\nhansu\\Form1Nhansu.cs",
+              "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\nhansu\\Form1Nhansu.cs",
+              "ToolTip": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\nhansu\\Form1Nhansu.cs [Design]",
+              "RelativeToolTip": "PROJECT_DBMS\\admin\\nhansu\\Form1Nhansu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T06:58:45.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.cs",
-              "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\menu\\Form1.cs",
-              "ToolTip": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.cs",
-              "RelativeToolTip": "PROJECT_DBMS\\admin\\menu\\Form1.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAIA+wD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T06:39:01.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.cs",
-              "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\menu\\Form1.cs",
-              "ToolTip": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.cs [Design]",
-              "RelativeToolTip": "PROJECT_DBMS\\admin\\menu\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T06:36:45.489Z",
+              "WhenOpened": "2025-09-11T03:25:03.687Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -1,7 +1,6 @@
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.admin.khachhang.Form1.resources
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.admin.kho.Form1.resources
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.admin.menu.Form1.resources
-A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.admin.nhansu.Form1.resources
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.customer.Form1.resources
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.csproj.GenerateResource.cache
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.GeneratedMSBuildEditorConfig.editorconfig
@@ -20,3 +19,4 @@ A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.genruntimeconfig.cache
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\ref\PROJECT_DBMS.dll
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.Properties.Resources.resources
+A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.admin.nhansu.Form1Nhansu.resources
