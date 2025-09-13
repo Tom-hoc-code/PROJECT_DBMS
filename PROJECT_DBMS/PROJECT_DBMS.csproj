@@ -10,6 +10,11 @@
 
   <ItemGroup>
     <Folder Include="admin\khachhang\" />
+    <Folder Include="admin\nhansu\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
   </ItemGroup>
 
   <ItemGroup>

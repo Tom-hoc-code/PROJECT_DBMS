@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "A:\\DBMS_project\\PROJECT_DBMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|a:\\dbms_project\\project_dbms\\project_dbms\\admin\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|solutionrelative:project_dbms\\admin\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|a:\\dbms_project\\project_dbms\\project_dbms\\admin\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F44B27E4-615C-487F-BA8A-AF3FD9AB8BF2}|PROJECT_DBMS\\PROJECT_DBMS.csproj|solutionrelative:project_dbms\\admin\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\menu\\Form1.Designer.cs",
-              "ToolTip": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.Designer.cs",
-              "RelativeToolTip": "PROJECT_DBMS\\admin\\menu\\Form1.Designer.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEQAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.cs",
+              "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\menu\\Form1.cs",
+              "ToolTip": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.cs",
+              "RelativeToolTip": "PROJECT_DBMS\\admin\\menu\\Form1.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T09:00:09.189Z",
+              "WhenOpened": "2025-09-13T10:36:27.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.cs",
               "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\menu\\Form1.cs",
               "ToolTip": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.cs [Design]",
               "RelativeToolTip": "PROJECT_DBMS\\admin\\menu\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T09:00:08.276Z",
+              "WhenOpened": "2025-09-13T10:36:23.316Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "PROJECT_DBMS\\admin\\menu\\Form1.Designer.cs",
+              "ToolTip": "A:\\DBMS_project\\PROJECT_DBMS\\PROJECT_DBMS\\admin\\menu\\Form1.Designer.cs",
+              "RelativeToolTip": "PROJECT_DBMS\\admin\\menu\\Form1.Designer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:36:20.176Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -13,6 +13,7 @@ namespace PROJECT_DBMS.admin.menu
 {
     public partial class Form1 : Form
     {
+        private Form currentForm = null;
         public Form1()
         {
             InitializeComponent();
@@ -20,12 +21,16 @@ namespace PROJECT_DBMS.admin.menu
         public void loadForm(object Form)
         {
             if (this.mainpanel.Controls.Count > 0)
+            {
                 this.mainpanel.Controls.RemoveAt(0);
+                currentForm.Dispose();
+            }
             Form f = Form as Form;
             f.TopLevel = false;
             f.Dock = DockStyle.Fill;
             this.mainpanel.Controls.Add(f);
             this.mainpanel.Tag = f;
+            this.currentForm = f;
             f.Show();
         }
 
@@ -76,6 +81,8 @@ namespace PROJECT_DBMS.admin.menu
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (currentForm != null && currentForm is NhanVienForm)
+                return;
             loadForm(new NhanVienForm());
         }
     }

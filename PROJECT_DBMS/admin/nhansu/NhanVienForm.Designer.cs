@@ -28,87 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            contentpanel = new Panel();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            buttonThongtin = new Button();
-            buttonHieusuat = new Button();
-            buttonChamcong = new Button();
-            buttonLuongthuong = new Button();
-            contentpanel.SuspendLayout();
-            tableLayoutPanel1.SuspendLayout();
+            panel1 = new Panel();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // contentpanel
+            // panel1
             // 
-            contentpanel.Controls.Add(tableLayoutPanel1);
-            contentpanel.Dock = DockStyle.Fill;
-            contentpanel.Location = new Point(0, 0);
-            contentpanel.Name = "contentpanel";
-            contentpanel.Size = new Size(800, 450);
-            contentpanel.TabIndex = 6;
+            panel1.BackColor = Color.RosyBrown;
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(800, 67);
+            panel1.TabIndex = 0;
             // 
-            // tableLayoutPanel1
+            // dataGridView1
             // 
-            tableLayoutPanel1.ColumnCount = 4;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.Controls.Add(buttonLuongthuong, 3, 0);
-            tableLayoutPanel1.Controls.Add(buttonChamcong, 2, 0);
-            tableLayoutPanel1.Controls.Add(buttonHieusuat, 1, 0);
-            tableLayoutPanel1.Controls.Add(buttonThongtin, 0, 0);
-            tableLayoutPanel1.Dock = DockStyle.Top;
-            tableLayoutPanel1.Location = new Point(0, 0);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 1;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(800, 52);
-            tableLayoutPanel1.TabIndex = 0;
-            // 
-            // buttonThongtin
-            // 
-            buttonThongtin.Dock = DockStyle.Fill;
-            buttonThongtin.Font = new Font("Tahoma", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonThongtin.Location = new Point(3, 3);
-            buttonThongtin.Name = "buttonThongtin";
-            buttonThongtin.Size = new Size(194, 46);
-            buttonThongtin.TabIndex = 1;
-            buttonThongtin.Text = "Thông tin";
-            buttonThongtin.UseVisualStyleBackColor = true;
-            // 
-            // buttonHieusuat
-            // 
-            buttonHieusuat.Dock = DockStyle.Fill;
-            buttonHieusuat.Font = new Font("Tahoma", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonHieusuat.Location = new Point(203, 3);
-            buttonHieusuat.Name = "buttonHieusuat";
-            buttonHieusuat.Size = new Size(194, 46);
-            buttonHieusuat.TabIndex = 2;
-            buttonHieusuat.Text = "Hiệu suất";
-            buttonHieusuat.UseVisualStyleBackColor = true;
-            // 
-            // buttonChamcong
-            // 
-            buttonChamcong.Dock = DockStyle.Fill;
-            buttonChamcong.Font = new Font("Tahoma", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonChamcong.Location = new Point(403, 3);
-            buttonChamcong.Name = "buttonChamcong";
-            buttonChamcong.Size = new Size(194, 46);
-            buttonChamcong.TabIndex = 3;
-            buttonChamcong.Text = "Chấm công";
-            buttonChamcong.UseVisualStyleBackColor = true;
-            // 
-            // buttonLuongthuong
-            // 
-            buttonLuongthuong.Dock = DockStyle.Fill;
-            buttonLuongthuong.Font = new Font("Tahoma", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonLuongthuong.Location = new Point(603, 3);
-            buttonLuongthuong.Name = "buttonLuongthuong";
-            buttonLuongthuong.Size = new Size(194, 46);
-            buttonLuongthuong.TabIndex = 4;
-            buttonLuongthuong.Text = "Lương thưởng";
-            buttonLuongthuong.UseVisualStyleBackColor = true;
+            this.dataGridView1.Dock = DockStyle.Fill;
+            this.dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Font = new Font("Tahoma", 10);
+            this.dataGridView1.DefaultCellStyle.ForeColor = Color.DarkBlue;
+            this.dataGridView1.DefaultCellStyle.BackColor = Color.WhiteSmoke;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(46, 184, 147);
+            this.dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            this.dataGridView1.DefaultCellStyle.Font = new Font("Tahoma", 10);
+            this.dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Tahoma", 10, FontStyle.Bold);
+            this.dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            this.Load += new System.EventHandler(this.NhanVienForm_Load);
             // 
             // NhanVienForm
             // 
@@ -116,23 +63,19 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.AppWorkspace;
             ClientSize = new Size(800, 450);
-            Controls.Add(contentpanel);
+            Controls.Add(dataGridView1);
+            Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "NhanVienForm";
             Text = "Form1";
             Load += Thongtin_Load;
-            contentpanel.ResumeLayout(false);
-            tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-        private Panel contentpanel;
-        private TableLayoutPanel tableLayoutPanel1;
-        private Button buttonThongtin;
-        private Button buttonLuongthuong;
-        private Button buttonChamcong;
-        private Button buttonHieusuat;
         private Button button1;
+        private Panel panel1;
+        private DataGridView dataGridView1;
     }
 }

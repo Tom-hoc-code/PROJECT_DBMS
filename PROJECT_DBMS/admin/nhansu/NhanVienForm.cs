@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PROJECT_DBMS.SQL;
 
 namespace PROJECT_DBMS.admin.nhansu
 {
@@ -40,6 +41,30 @@ namespace PROJECT_DBMS.admin.nhansu
         private void buttonLuongthuong_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void NhanVienForm_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("NhanVienForm_Load được gọi!");
+            LoadNhanVienData();
+        }
+
+        private void LoadNhanVienData()
+        {
+            try
+            {
+                DataTable dt = NhanvienQuery.GetAllNhanVien(); // Lấy DataTable từ Repository
+                dataGridView1.DataSource = dt;             // Bind DataTable vào DataGridView
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
