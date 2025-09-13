@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PROJECT_DBMS.admin.nhansu;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,17 @@ namespace PROJECT_DBMS.admin.menu
         public Form1()
         {
             InitializeComponent();
+        }
+        public void loadForm(object Form)
+        {
+            if (this.mainpanel.Controls.Count > 0)
+                this.mainpanel.Controls.RemoveAt(0);
+            Form f = Form as Form;
+            f.TopLevel = false;
+            f.Dock = DockStyle.Fill;
+            this.mainpanel.Controls.Add(f);
+            this.mainpanel.Tag = f;
+            f.Show();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -60,6 +72,11 @@ namespace PROJECT_DBMS.admin.menu
         private void button6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            loadForm(new NhanVienForm());
         }
     }
 }

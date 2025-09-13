@@ -1,4 +1,7 @@
-namespace PROJECT_DBMS.admin.menu
+using PROJECT_DBMS.admin.menu;
+using PROJECT_DBMS.admin.nhansu;
+
+namespace PROJECT_DBMS
 {
     internal static class Program
     {

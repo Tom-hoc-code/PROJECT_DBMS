@@ -19,4 +19,4 @@ A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.genruntimeconfig.cache
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\ref\PROJECT_DBMS.dll
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.Properties.Resources.resources
-A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.admin.nhansu.Form1Nhansu.resources
+A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.admin.nhansu.NhanVienForm.resources

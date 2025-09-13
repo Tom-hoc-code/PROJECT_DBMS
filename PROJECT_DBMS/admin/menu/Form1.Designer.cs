@@ -38,7 +38,7 @@
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
-            panel3 = new Panel();
+            mainpanel = new Panel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -56,6 +56,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(285, 9);
@@ -63,6 +64,7 @@
             label1.Size = new Size(353, 36);
             label1.TabIndex = 0;
             label1.Text = "QUẢN LÍ VẬN CHUYỂN";
+            label1.TextAlign = ContentAlignment.TopCenter;
             // 
             // panel2
             // 
@@ -178,16 +180,18 @@
             button1.TabIndex = 0;
             button1.Text = "NHÂN VIÊN";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
-            // panel3
+            // mainpanel
             // 
-            panel3.BackColor = SystemColors.Control;
-            panel3.BorderStyle = BorderStyle.Fixed3D;
-            panel3.Location = new Point(134, 60);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(791, 535);
-            panel3.TabIndex = 2;
-            panel3.Paint += panel3_Paint;
+            mainpanel.BackColor = SystemColors.Control;
+            mainpanel.BorderStyle = BorderStyle.Fixed3D;
+            mainpanel.Dock = DockStyle.Fill;
+            mainpanel.Location = new Point(128, 54);
+            mainpanel.Name = "mainpanel";
+            mainpanel.Size = new Size(809, 553);
+            mainpanel.TabIndex = 2;
+            mainpanel.Paint += panel3_Paint;
             // 
             // Form1
             // 
@@ -195,11 +199,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDark;
             ClientSize = new Size(937, 607);
-            Controls.Add(panel3);
+            Controls.Add(mainpanel);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "Form1";
             Text = "menu";
+            WindowState = FormWindowState.Maximized;
             Load += Form1_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -217,7 +222,7 @@
         private Button button3;
         private Button button4;
         private Button button5;
-        private Panel panel3;
+        private Panel mainpanel;
         private Button button6;
     }
 }
