@@ -10,6 +10,18 @@
     <Compile Update="admin\menu\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="admin\nhansu\ADD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="admin\nhansu\DELETE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="admin\nhansu\PERSONAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="admin\nhansu\UPDATE.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="admin\nhansu\NhanVienForm.cs">
       <SubType>Form</SubType>
     </Compile>

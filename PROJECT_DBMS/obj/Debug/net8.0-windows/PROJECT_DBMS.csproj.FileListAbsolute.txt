@@ -68,3 +68,7 @@ A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\bin\Debug\net8.0-windows\runtimes\win\
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.csproj.AssemblyReference.cache
 A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_.0B9DF5F9.Up2Date
+A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.admin.nhansu.ADD.resources
+A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.admin.nhansu.DELETE.resources
+A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.admin.nhansu.PERSONAL.resources
+A:\DBMS_project\PROJECT_DBMS\PROJECT_DBMS\obj\Debug\net8.0-windows\PROJECT_DBMS.admin.nhansu.UPDATE.resources

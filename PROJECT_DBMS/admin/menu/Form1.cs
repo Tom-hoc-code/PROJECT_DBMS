@@ -82,7 +82,9 @@ namespace PROJECT_DBMS.admin.menu
         private void button1_Click(object sender, EventArgs e)
         {
             if (currentForm != null && currentForm is NhanVienForm)
+            {
                 return;
+            }
             loadForm(new NhanVienForm());
         }
     }
